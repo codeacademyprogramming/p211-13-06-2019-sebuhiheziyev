@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+}
+.game_logo {
+  position: absolute;
+  left: 39%;
+  width: 250px;
+  height: 150px;
+  top: 50px;
+}
+.bg-big {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(26, 178, 41);
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 250px;
+  margin-left: 120px;
+  position: relative;
+}
+
+.bg-head {
+  left: calc(50% - 60px);
+  border-radius: 35px;
+  border-top: 2px solid black;
+  z-index: 0;
+  top: -30px;
+  position: absolute;
+  width: 120px;
+  height: 58px;
+  background-color: rgb(26, 178, 41);
+}
+
+.username {
+  margin: 0 auto;
+  display: block;
+  height: 45px;
+  border: 2px solid black;
+  border-radius: 22px;
+  padding: 0px 10px;
+  margin-bottom: 25px;
+}
+.sign {
+  padding-top: 30px;
+}
+.start-img {
+  z-index: 99;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background: antiquewhite;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+.btn-start {
+  display: inline-block;
+  display: block;
+  width: 142px;
+  height: 40px;
+  margin: 0 auto;
+}
+.game-fruit {
+  margin-top: 80px;
+  border-radius: 10px;
+  height: 500px;
+  background-color: green;
+  position: relative;
+}
+.game-zone {
+  height: 400px;
+  background-color: lightgreen;
+  width: 80%;
+  top: 50px;
+  left: 10%;
+  position: absolute;
+  overflow: hidden;
+}
+.img-style {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  animation-name: imganimation;
+  animation-duration: 20s;
+}
+
+@keyframes imganimation {
+  0% {
+    top: -40px;
+  }
+  100% {
+    top: 500px;
+  }
+}
+.icon {
+  position: absolute;
+  bottom:65px;
+  right: 65px;
+  font-size: 80px;
+}
+
+
+.tarsh-area {
+  width: 70px;
+  height: 80px;
+
+}
+.scor{
+  background-color: rgb(0, 255, 42);
+  width: 200px;
+  height: 100px;
+  margin-left: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  
+}
+
+.teeta{
+  
+}
